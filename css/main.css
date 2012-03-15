@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:bold;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+section, header{
+	display: block;
+}
+
+body{
+	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	/*background: #e0e3ec url(../images/bgnoise_lg.jpg) repeat top left;*/
+	font-weight: 400;
+	font-size: 15px;
+	color: #393b40;
+	overflow-y: scroll;
+}
+
+ol{
+	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	margin-left:10%;
+}
+a{
+	color: #FCA74C;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+img {
+	width:320px;
+}
+
+.duo{
+	width:49%;
+	display: inline;
+	padding-left:3ppx;
+}
+.container{
+	width: 480px;
+	position: relative;
+	margin:0 auto;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    	text-align: center;
+}
+.container > header h1{
+	font-family: Calibri, 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+		color: #F02727;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+	color: #80B8CE;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+.container > header h2{
+	font-family:'BebasNeueRegular';
+	font-size: 32px;
+	color: #F02727;
+}
+
+table{
+	border:1px solid;
+	text-align:center;
+	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	width:100%;
+	margin:2% auto 2% auto;
+	font-size:10px;
+}
+
+td{
+	border:1px solid;
+	padding:1%;
+}
+
+#head{
+	font-weight:bold;
+}
+
+.highlight{
+	background-color:#EFEFEF;
+}
+
+.title_content{
+	padding-left:4%;
+	font-weight:bold;
+}
+
+.top_img{
+	width:80px;
+}
+
+ul, ol{
+	margin-left:5%;
+	line-height: 21px;
+	font-size: 14px;
+	padding: 20px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
