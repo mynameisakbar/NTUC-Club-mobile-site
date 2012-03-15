@@ -74,7 +74,7 @@ img {
 	padding-left:3ppx;
 }
 .container{
-	width: 480px;
+	width: 320px;
 	position: relative;
 	margin:0 auto;
 }
@@ -82,8 +82,8 @@ img {
 	clear: both;
 }
 .container > header{
-	padding: 20px 30px 10px 30px;
-	margin: 0px 20px 10px 20px;
+	padding: 20px 30px 10px 0px;
+	margin: 0px 20px 10px 0px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -138,11 +138,12 @@ td{
 
 .top_img{
 	width:80px;
+	margin-left:30px;
 }
 
 ul, ol{
 	margin-left:5%;
-	line-height: 21px;
+	line-height: 18px;
 	font-size: 14px;
 	padding: 20px;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);

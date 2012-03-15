@@ -71,10 +71,12 @@
 	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
 .ac-container article p{
-	line-height: 23px;
+	line-height: 20px;
 	font-size: 14px;
 	padding: 10px 20px;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	margin-bottom: 4%;
+
 }
 .ac-container input:checked ~ article{
 	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
@@ -115,24 +117,25 @@
 }
 
 .ac-container input:checked ~ article.ac-about{
-	height: 1500px;
+	height: 100%;
 }
 
 .ac-container input:checked ~ article.ac-aboutbowl{
-	height: 2250px;
+	height: 100%;
 }
 
 .ac-container input:checked ~ article.ac-aboutshort{
-	height: 950px;
+	height: 100%;
 }
 
 .ac-container input:checked ~ article.ac-membership{
-	height: 750px;
+	height: 100%;
 }
 .ac-container input:checked ~ article.ac-aboutusport{
-	height: 2000px;
+	height: 100%;
 }
 
 .ac-container input:checked ~ article.ac-aboutusport2{
-	height: 2700px;
+	/*height: 2700px;*/
+	height:100%;
 }
