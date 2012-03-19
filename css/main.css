@@ -113,9 +113,9 @@ table{
 	border:1px solid;
 	text-align:center;
 	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	width:100%;
+	width:90%;
 	margin:2% auto 2% auto;
-	font-size:10px;
+	font-size:8px;
 }
 
 td{
@@ -137,7 +137,7 @@ td{
 }
 
 .top_img{
-	width:80px;
+	width:150px;
 	margin-left:30px;
 }
 
