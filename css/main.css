@@ -46,7 +46,7 @@ section, header{
 }
 
 body{
-	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: 'BebasNeueRegular', "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	/*background: #e0e3ec url(../images/bgnoise_lg.jpg) repeat top left;*/
 	font-weight: 400;
 	font-size: 15px;
@@ -55,7 +55,7 @@ body{
 }
 
 ol{
-	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: 'BebasNeueRegular', "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	margin-left:10%;
 }
 a{
@@ -90,7 +90,7 @@ img {
     	text-align: center;
 }
 .container > header h1{
-	font-family: Calibri, 'Arial Narrow', Arial, sans-serif;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	font-size: 35px;
 	line-height: 35px;
 	position: relative;
@@ -112,7 +112,7 @@ img {
 table{
 	border:1px solid;
 	text-align:center;
-	font-family: Calibri, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: 'BebasNeueRegular', "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	width:90%;
 	margin:2% auto 2% auto;
 	font-size:8px;
@@ -137,8 +137,7 @@ td{
 }
 
 .top_img{
-	width:150px;
-	margin-left:30px;
+	width:320px;
 }
 
 ul, ol{
